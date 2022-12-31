@@ -1,10 +1,10 @@
 const mysql = require('mysql2');
 
 const connection = mysql.createConnection({
-  host: 'datab',
+  host: 'my_database',
   user: 'root',
   password: 'root',
-  database: 'tfs_db',
+  database: 'my_db',
   port: 3306
 });
 
