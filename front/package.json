@@ -1,5 +1,5 @@
 {
-  "name": "tfs",
+  "name": "skeleton-front",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -8,6 +8,7 @@
     "preview": "vite preview",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
   },
+  "author": "gravity",
   "dependencies": {
     "vue": "^3.2.45",
     "vue-router": "^4.1.6"

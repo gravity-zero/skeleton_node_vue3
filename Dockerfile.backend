@@ -6,4 +6,6 @@ WORKDIR /app
 
 COPY back .
 
+RUN npm install -g --force --save-dev nodemon 
+
 RUN npm install
