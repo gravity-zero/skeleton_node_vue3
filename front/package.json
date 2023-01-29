@@ -11,7 +11,9 @@
   "author": "gravity",
   "dependencies": {
     "vue": "^3.2.45",
-    "vue-router": "^4.1.6"
+    "vue-router": "^4.1.6",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "vite": "^4.0.0"
   },
   "devDependencies": {
     "@rushstack/eslint-patch": "^1.1.4",
