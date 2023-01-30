@@ -2,11 +2,7 @@ FROM node:lts-alpine as builder
 
 WORKDIR /app
 
-COPY front/package.json ./
-COPY front/package-lock.json ./
 COPY front .
 
 RUN npm install
-RUN npm i -g vite
-
 RUN npm run lint
