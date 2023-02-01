@@ -14,8 +14,6 @@ services:
       MYSQL_PASSWORD: root
       MYSQL_DATABASE: my_db
       MYSQL_PORT: 3302
-    volumes:
-      - ./back:/app
     command: npm run dev -- --port 3000 --host 0.0.0.0
     ports:
       - "3332:3000"
