@@ -1,7 +1,28 @@
 <h2>Pour démarrer le projet en local:</h2>
-<code>
-docker-compose up --build -d
-</code>
+
+<h3>Avec makefile</h3>
+
+```bash
+//DEV
+make start_dev
+
+//PROD
+make start_prod
+```
+
+<h3>Sans makefile</h3>
+
+```bash
+//DEV
+docker compose up -d --build &&\
+cd front &&\
+npm i && npm run dev -- --port 1212
+
+//Prod
+docker compose up -d --build &&\
+cd front && npm i && npm run build
+```
+
 <h3>Les liens:</h3>
 <ul>
   <li><a href="http://localhost:1212">front</a></li>
